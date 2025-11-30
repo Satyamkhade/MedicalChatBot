@@ -1,10 +1,14 @@
 fastapi
 uvicorn
-langchain
-langchain-community
-langchain-huggingface
-langchain-groq
-langchain-text-splitters
+
+# LangChain ecosystem (versions that support `langchain.chains`)
+langchain==0.3.26
+langchain-community==0.3.27
+langchain-huggingface==0.3.0
+langchain-groq==0.3.5
+langchain-text-splitters==0.3.8
+
+# RAG + embeddings
 sentence-transformers
 huggingface-hub
 faiss-cpu
